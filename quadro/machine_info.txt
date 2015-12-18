@@ -1,0 +1,6 @@
+HP Z230 Workstation
+16GB RAM
+Haswell Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+4 cores (8 threads)
+Nvidia Quadro K2200 GPU
+
