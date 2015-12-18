@@ -1,0 +1,4 @@
+ProLiant DL385P Gen8
+16GB RAM
+Piledriver AMD Opteron(tm) Processor 6376
+16 cores (32 threads)
