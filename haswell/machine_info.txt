@@ -1,0 +1,6 @@
+??
+4GB RAM
+Haswell Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+4 cores (8 threads)
+
+
