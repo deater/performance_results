@@ -1,0 +1,5 @@
+Raspberry Pi Compute-Module
+512MB RAM
+ARM1176
+1 core
+
