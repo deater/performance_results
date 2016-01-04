@@ -1,0 +1,5 @@
+NVIDIA Jetson TX-1
+4GB RAM
+ARMv8 Cortex A57
+4 cores
+
