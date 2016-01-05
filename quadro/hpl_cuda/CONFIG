@@ -1,0 +1,9 @@
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2013 NVIDIA Corporation
+Built on Thu_Mar_13_11:58:58_PDT_2014
+Cuda compilation tools, release 6.0, V6.0.1
+
+Linux Quadro 3.16.0-4-amd64 #1 SMP Debian 3.16.7-ckt11-1+deb8u5 (2015-10-09) x86_64 GNU/Linux
+
+hpl-cuda - 0.001 - 2010
+
