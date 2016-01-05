@@ -1,0 +1,5 @@
+Raspberry Pi Model B+
+512MB RAM
+ARM1176
+1 core
+
