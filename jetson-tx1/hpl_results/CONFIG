@@ -1,0 +1,4 @@
+gcc (Ubuntu/Linaro 4.8.4-2ubuntu1~14.04) 4.8.4
+Linux jetson-tx1 3.10.67-g3a5c467 #1 SMP PREEMPT Fri Oct 30 14:26:17 PDT 2015 aarch64 aarch64 aarch64 GNU/Linux
+OpenBLAS-git 3857581adf0936d , manual target=CORTEXA57
+hpl-2.1
