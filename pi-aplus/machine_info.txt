@@ -1,0 +1,5 @@
+Raspberry Pi Model A+
+256MB RAM
+ARM1176
+1 core
+
