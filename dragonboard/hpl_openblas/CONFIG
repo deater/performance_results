@@ -1,0 +1,4 @@
+gcc (Debian/Linaro 4.9.2-10) 4.9.2
+Linux dragon 4.2.4-linaro-lt-qcom #1 SMP PREEMPT Fri Dec 4 12:42:30 UTC 2015 aarch64 GNU/Linux
+OpenBLAS-git 3857581adf0936d , manual target=ARMV8
+hpl-2.1

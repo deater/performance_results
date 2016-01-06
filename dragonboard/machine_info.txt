@@ -1,0 +1,4 @@
+Qualcomm DragonBoard 410c
+1GB RAM
+ARMv8 Cortex-A53
+4 cores
