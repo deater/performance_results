@@ -1,0 +1,4 @@
+Sun Ultra 60
+512MB RAM
+TI UltraSparc II
+1 core

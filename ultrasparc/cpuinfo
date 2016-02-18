@@ -1,0 +1,12 @@
+cpu		: TI UltraSparc II  (BlackBird)
+fpu		: UltraSparc II integrated FPU
+pmu		: ultra12
+prom		: OBP 3.11.26 1998/04/15 14:52
+type		: sun4u
+ncpus probed	: 1
+ncpus active	: 1
+D$ parity tl1	: 0
+I$ parity tl1	: 0
+Cpu0ClkTck	: 0000000015750ea8
+cpucaps		: flush,stbar,swap,muldiv,v9,mul32,div32,v8plus,vis
+MMU Type	: Spitfire
