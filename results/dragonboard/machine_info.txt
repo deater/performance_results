@@ -2,3 +2,6 @@ Qualcomm DragonBoard 410c
 1GB RAM
 ARMv8 Cortex-A53
 4 cores
+
+Power Supply:
+PowerPartners 12V@2A	
