@@ -1,0 +1,13 @@
+Performance/Power Results for various machines I own.
+
+These are used to create the results on my website:
+	+ Top machines in my reserach group
+	  http://web.eece.maine.edu/~vweaver/group/machines.html
+	+ Top green machines in my research group
+
+As well as various academic papers.
+
+	results -- has the raw results
+	utils   -- has tools for processing the info
+	scripts -- has scripts used to gather the results
+

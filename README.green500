@@ -1,0 +1,15 @@
+The green500 results are gathered in the following way:
+	+ A wattsuppro is used to measure the power.
+		The values are logged on a raspberry pi machine (over USB)
+		using the wattsup-simple program from 
+		https://github.com/deater/uarch-configure
+	+ hpl is built and configured as described in the HPL info
+	+ ntp is used to synchronize the clock before the run
+	+ the run_green500.sh script is run which logs the unix
+		timestamp, idles 5s, timestamp, runs hpl, timestamp
+		idles 5s, timestamp
+	+ the tool in utils is used to calculate GFLOPS/W
+
+This is based off of the methodolody described in
+	"Power Measurement Tutorial for the Green 500 List"
+	by Ge, Feng, Pyla, Cameron, and Feng.
