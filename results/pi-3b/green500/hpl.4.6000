@@ -1,3 +1,5 @@
+1457726599.984479860
+1457726604.997421923
 ================================================================================
 HPLinpack 2.1  --  High-Performance Linpack benchmark  --   October 26, 2012
 Written by A. Petitet and R. Clint Whaley,  Innovative Computing Laboratory, UTK
@@ -44,10 +46,10 @@ ALIGN  : 8 double precision words
 ================================================================================
 T/V                N    NB     P     Q               Time                 Gflops
 --------------------------------------------------------------------------------
-WR02R2L2        6000   256     1     1              41.38              3.481e+00
-HPL_pdgesv() start time Fri Mar 11 13:03:03 2016
+WR02R2L2        6000   256     1     1              41.37              3.482e+00
+HPL_pdgesv() start time Fri Mar 11 15:03:31 2016
 
-HPL_pdgesv() end time   Fri Mar 11 13:03:44 2016
+HPL_pdgesv() end time   Fri Mar 11 15:04:13 2016
 
 --------------------------------------------------------------------------------
 ||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0028294 ...... PASSED
@@ -61,3 +63,5 @@ Finished      1 tests with the following results:
 
 End of Tests.
 ================================================================================
+1457726662.241280368
+1457726667.246547448
