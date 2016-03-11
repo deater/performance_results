@@ -1,0 +1,5 @@
+note on my pi3, even with a small heatsink, using N=8000 and higher
+results in failed results and sometimes locked systems.
+
+Still investigating this.
+
