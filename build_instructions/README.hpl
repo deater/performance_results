@@ -1,0 +1,43 @@
+Just some directions on how I am running these experiments, in case
+anyone wants to try to replicate.
+
+Most of my systems run debian.  From a fairly stock debian install you
+will need to install the following packages:
+
+apt-get install libmpich-dev (might be libmpich2-dev on older systems)
+apt-get install gfortran
+
+Next, get and install OpenBlas.  You can get the git tree, but usually
+I'll get the most recent stable release tarball.
+	http://www.openblas.net/
+
+Untar it, then usually it's just a matter of "make".  If you have unusual
+hardware you might have to specify the architecture by hand.
+On a slow machine (like a pi) it might take a few hours to build.
+
+Next get hpl.  Hpl is notriously a pain to get built.  I'll do the following:
+	Download from here:
+		http://www.netlib.org/benchmark/hpl/
+	I have been using hpl-2.1
+
+	Untar it.
+
+	Make a Make.OpenBLAS config file.  I've included mine here,
+	but note your paths might have to be adjusted.
+
+	Make a link to the hpl-1.2 directory from hpl in your home directory.
+	I'm not sure why but it always fails if I don't do this.
+
+		cd ; ln -s PATH_TO_HPL hpl
+
+	Run "make arch=OpenBLAS"
+
+	And if all went well, it will generate a file
+		./bin/OpenBLAS/xhpl
+
+	Next copy in a good HPL.dat file to use.  The one I used
+	is included in the results directory for each machine I ran on.
+	You will likely want to edit the N line to match.
+
+	Then just run "xhpl" and you will be good.
+
