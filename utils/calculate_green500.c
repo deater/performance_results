@@ -10,7 +10,7 @@
 int main(int argc, char **argv) {
 
 	FILE *fff;
-	double idle_start;
+	double idle_start,wup_idle_start=0.0;
 	double start_time,stop_time,gigaflops,total_time;
 	char temp_string[BUFSIZ];
 	char *result;
@@ -111,6 +111,7 @@ int main(int argc, char **argv) {
 
 		if ((accum_idle==0) && (current_time>idle_start)) {
 			printf("\tStarting Idle at %lf\n",current_time);
+			wup_idle_start=current_time;
 			accum_idle=1;
 		}
 
@@ -166,8 +167,8 @@ int main(int argc, char **argv) {
 			total_joules,(wup_stop-wup_start),average_watts);
 
 	printf("\tAverage Idle Power: %lf/%lf = %lf W\n",
-		idle_joules,(wup_start-idle_start),
-		idle_joules/(wup_start-idle_start));
+		idle_joules,(wup_start-wup_idle_start),
+		idle_joules/(wup_start-wup_idle_start));
 	printf("\tMax Power: %lf W\n",max_power);
 	printf("\n\n");
 	printf("GIGAFLOPS/W = %lf\n",gigaflops/average_watts);
