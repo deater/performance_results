@@ -1,0 +1,6 @@
+HP Compaq Pro 6305
+8GB RAM
+AMD A10-6800B APU with Radeon(tm) HD Graphics
+4 cores
+
+
