@@ -4,10 +4,13 @@ These are used to create the results on my website:
 	+ Top machines in my reserach group
 	  http://web.eece.maine.edu/~vweaver/group/machines.html
 	+ Top green machines in my research group
+	  http://web.eece.maine.edu/~vweaver/group/green_machines.html
 
 As well as various academic papers.
 
+	build_instructions -- has info on building linpack
 	results -- has the raw results
-	utils   -- has tools for processing the info
 	scripts -- has scripts used to gather the results
+	utils   -- has tools for processing the info
+
 
