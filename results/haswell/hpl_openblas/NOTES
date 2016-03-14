@@ -1,0 +1,1 @@
+env OMP_NUM_THREADS=4 ./xhpl > hpl_results.4.20k

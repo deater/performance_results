@@ -16,7 +16,7 @@ Gflops : Rate of execution for solving the linear system.
 
 The following parameter values will be used:
 
-N      :   20000 
+N      :   14000 
 NB     :     256 
 PMAP   : Row-major process mapping
 P      :       1 
@@ -44,13 +44,13 @@ ALIGN  : 8 double precision words
 ================================================================================
 T/V                N    NB     P     Q               Time                 Gflops
 --------------------------------------------------------------------------------
-WR02R2L2       20000   256     1     1              36.71              1.453e+02
-HPL_pdgesv() start time Mon Mar 14 17:07:07 2016
+WR02R2L2       14000   256     1     1              13.53              1.352e+02
+HPL_pdgesv() start time Mon Mar 14 17:13:09 2016
 
-HPL_pdgesv() end time   Mon Mar 14 17:07:44 2016
+HPL_pdgesv() end time   Mon Mar 14 17:13:22 2016
 
 --------------------------------------------------------------------------------
-||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0013864 ...... PASSED
+||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0018334 ...... PASSED
 ================================================================================
 
 Finished      1 tests with the following results:
