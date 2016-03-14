@@ -1,0 +1,11 @@
+Cubieboard2
+1GB RAM
+sunxi: Allwinner A20 (AW1651/sun7i)
+ARM Cortex A7
+2 cores
+
+Power adapter:
+Huntkey HKa01105021-XE
+5.0V@2.1A
+
+
