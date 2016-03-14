@@ -3,3 +3,10 @@ Raspberry Pi Compute-Module
 ARM1176
 1 core
 
+has apple USB->ethernet converter to provide ethernet
+
+for power measurement purposes uses
+	huntkey HKA01105021-Xe 5.0V@2.1A power supply
+
+Normally uses the white power supply that came with it
+	Stontronics 5V@2A
