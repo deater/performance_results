@@ -2,6 +2,7 @@ BeagleBoneBlack
 512MB RAM
 ARM Cortex A8
 1 core
+TI AM3
 
 Power adapter:
 	Solytech
