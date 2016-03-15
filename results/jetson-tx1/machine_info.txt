@@ -3,3 +3,7 @@ NVIDIA Jetson TX-1
 ARMv8 Cortex A57
 4 cores
 
+Power Supply:
+	Meanwell GST90A19-P1M
+	19V@4.74A
+
