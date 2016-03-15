@@ -1,0 +1,10 @@
+Raspberry Pi Model 2-B
+1GB RAM
+ARM Cortex A7
+4 cores
+
+Power adapter:
+Huntkey HKa01105021-XE
+5.0V@2.1A
+
+
