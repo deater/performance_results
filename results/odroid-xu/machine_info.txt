@@ -1,0 +1,10 @@
+Odroid-XU
+2GB RAM
+Exynos 5 Octa
+ARM Cortex A7/A15 (big/LITTLE)
+4 cores
+
+Power adapter:
+	Xing Yuan 5V@4A
+
+
