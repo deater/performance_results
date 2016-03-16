@@ -1,5 +1,5 @@
-Raspberry Pi Model A+
-256MB RAM
+Raspberry Pi Model B
+512MB RAM
 ARM1176
 1 core
 
