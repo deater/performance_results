@@ -1,0 +1,10 @@
+Pandaboard ES
+1GB RAM
+TI OMAP4
+ARM Cortex A9
+2 cores
+
+Power adapter:
+	Solytech 5V@2.6A
+
+
