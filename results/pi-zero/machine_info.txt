@@ -1,0 +1,9 @@
+Raspberry Pi Zero
+512MB RAM
+ARM1176
+1 core
+
+Power adapter:
+Huntkey HKa01105021-XE
+5.0V@2.1A
+
