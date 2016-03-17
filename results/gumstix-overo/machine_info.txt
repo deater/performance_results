@@ -1,0 +1,12 @@
+gumstix-overo
+256MB RAM
+ARM Cortex A8
+1 core
+TI OMAP3
+
+Power adapter:
+	CUI EPS050100
+	5V@1A
+
+
+
