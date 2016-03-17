@@ -1,0 +1,24 @@
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 5
+model name	: Pentium II (Deschutes)
+stepping	: 2
+microcode	: 0x14
+cpu MHz		: 400.887
+cache size	: 512 KB
+fdiv_bug	: no
+hlt_bug		: no
+f00f_bug	: no
+coma_bug	: no
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 2
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 sep mtrr pge mca cmov pse36 mmx fxsr
+bogomips	: 801.77
+clflush size	: 32
+cache_alignment	: 32
+address sizes	: 36 bits physical, 32 bits virtual
+power management:
+
