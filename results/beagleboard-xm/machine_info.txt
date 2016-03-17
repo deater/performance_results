@@ -1,0 +1,10 @@
+beagleboard-xm
+512MB RAM
+ARM Cortex A8
+1 core
+TI DM3730 (OMAP3)
+
+Power adapter:
+	Solytech 5V@2.6A
+
+
