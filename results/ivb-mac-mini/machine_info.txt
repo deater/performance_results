@@ -1,0 +1,7 @@
+Mac-Mini (late 2012?)
+4GB RAM
+IvyBridge Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz
+6/58/9
+2 cores (4 threads)
+
+
