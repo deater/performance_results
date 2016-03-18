@@ -1,0 +1,10 @@
+itx-mini
+4GB RAM
+Intel(R) Atom(TM) CPU D2550   @ 1.86GHz
+6/54/1 (Cedarview)
+2 cores (4 threads)
+
+Power Supply:
+	Seasonic
+	12V@5A (60W)
+
