@@ -1,0 +1,7 @@
+Lenovo Thinkcentre 
+1GB RAM
+Intel(R) Pentium(R) D CPU 3.40GHz
+15/6/5
+1 core (2 threads) [are we sure?]
+
+
