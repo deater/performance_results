@@ -1,0 +1,10 @@
+itx-mini system
+4GB RAM
+Intel(R) Core(TM)2 Duo CPU     P8700  @ 2.53GHz
+6/23/10
+2 cores
+
+Power Supply:
+	Delta Electronics
+	20V@4.5A (90W)
+
