@@ -1,0 +1,7 @@
+MacBook Air (late 2012?)
+4GB RAM
+IvyBridge Intel(R) Core(TM) i5-3427U CPU @ 1.80GHz
+6/58/9
+2 cores (4 threads)
+
+
