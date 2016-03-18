@@ -1,0 +1,9 @@
+Chromebook
+2GB RAM
+Cortex A15
+Exynos 5 Dual
+2 cores
+
+Power Supply:
+	Chicony 12V@3.33A
+
