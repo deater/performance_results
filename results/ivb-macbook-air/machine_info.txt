@@ -5,3 +5,6 @@ IvyBridge Intel(R) Core(TM) i5-3427U CPU @ 1.80GHz
 2 cores (4 threads)
 
 
+Power Supply:
+	Apple, 14.85V@3.05A (45W)
+
