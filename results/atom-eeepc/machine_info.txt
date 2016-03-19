@@ -1,0 +1,9 @@
+Asus eeePC 910
+Intel(R) Atom(TM) CPU N270   @ 1.60GHz
+6/28/2
+1 core (2 threads)
+2GB Memory
+
+Power Supply:
+	PWR+ 12V@3A
+
