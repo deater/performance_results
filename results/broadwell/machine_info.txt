@@ -2,3 +2,7 @@ MacBook Air early 2015
 4GB RAM
 Broadwell i5-5250U CPU @ 1.60GHz
 2 cores (4 threads)
+
+Power Supply:
+	Apple
+	14.85V@3.05A (45W)
