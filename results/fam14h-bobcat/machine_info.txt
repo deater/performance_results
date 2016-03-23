@@ -1,0 +1,6 @@
+custom itx desktop
+2GB RAM
+AMD 20/2/0
+AMD G-T56N Processor
+2 cores
+
