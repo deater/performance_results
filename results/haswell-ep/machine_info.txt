@@ -1,5 +1,5 @@
-ProLiant DL360 Gen9
+HP ProLiant DL360 Gen9
 80GB RAM
 Haswell-EP Intel(R) Xeon(R) CPU E5-2640 v3 @ 2.60GHz
-16 cores (32 threads)
+16 cores (32 threads) (2 packages)
 
