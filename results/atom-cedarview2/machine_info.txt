@@ -1,0 +1,7 @@
+suprmicro
+4GB RAM
+Intel(R) Atom(TM) CPU S1260   @ 2.00GHz
+6/54/9 (Cedarview)
+2 cores (4 threads)
+
+
