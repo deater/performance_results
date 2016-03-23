@@ -1,0 +1,5 @@
+gcc (Debian 4.9.2-10) 4.9.2
+Linux gateway 3.16.0-4-amd64 #1 SMP Debian 3.16.7-ckt20-1+deb8u2 (2016-01-02) x86_64 GNU/Linux
+OpenBLAS-0.2.14 , make TARGET=ATOM
+hpl-2.1
+
