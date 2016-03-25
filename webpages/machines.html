@@ -1,0 +1,714 @@
+<html>
+<head>
+<title>The top 40 fastest computers in the VMW Research Group</title>
+</head>
+<body>
+
+<center>
+<h1>The top 40 fastest computers in the VMW Research Group</h1>
+</center>
+
+See also my <a href="green_machines.html">Green List</a> which has power
+and GFLOPS/W results for all of these machines.<br><br>
+
+The raw data for these rankings is available
+here: <a href="http://github.com/deater/performance_results.git">
+http://github.com/deater/performance_results.git</a><br><br>
+
+
+
+<table border>
+<tr>	
+	<th>#</th>
+	<th>Name</th>
+	<th>FLOPS</th>
+	<th>arch</th>
+	<th>vendor</th>
+	<th>type</th>
+	<th>Cores/Threads</th>
+	<th>RAM</th>
+	<th>Other</th>
+	<th>Linpack Settings</th>
+</tr>
+
+<tr>	
+	<td>1</td>
+	<td>haswell-ep</td>
+	<td>436 GFLOPS</td>
+	<td>x86_64</td>
+	<td>Intel 6/63/2</td>
+	<td>hsw e5-2640v3</td>
+	<td>16 (32)</td>
+	<td>80GB</td>
+	<td></td>
+	<td>(N=100000, 16 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>2</td>
+	<td>haswell/quadro (CPU only)</td>
+	<td>180 GFLOPS</td>
+	<td>x86_64</td>
+	<td>Intel 6/60/3</td>
+	<td>hsw i7-4790</td>
+	<td>4 (8)</td>
+	<td>16GB</td>
+	<td>Quadro K2200</td>
+	<td>(N=40000, 4 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>!</td>
+	<td>haswell/quadro (GPU only)</td>
+	<td>38.4 GFLOPS (Double)</td>
+	<td>NVIDIA</td>
+	<td>Quadro K2200</td>
+	<td></td>
+	<td></td>
+	<td>4GB</td>
+	<td></td>
+	<td>(N=40000, hpl-cuda)</td>
+</tr>
+
+<tr>	
+	<td>3</td>
+	<td>haswell desktop</td>
+	<td>145 GFLOPS</td>
+	<td>x86_64</td>
+	<td>Intel 6/60/3</td>
+	<td>hsw i7-4770</td>
+	<td>4 (8)</td>
+	<td>4GB</td>
+	<td></td>
+	<td>(N=20000, 4 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>4</td>
+	<td>fam15h-piledriver</td>
+	<td>117 GFLOPS</td>
+	<td>x86_64</td>
+	<td>AMD 21/2/0</td>
+	<td>Opteron 6376</td>
+	<td>16 (32)</td>
+	<td>16GB</td>
+	<td></td>
+	<td>(N=40000, 16 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>5</td>
+	<td>haswell desktop (instrumented)</td>
+	<td>115 GFLOPS</td>
+	<td>x86_64</td>
+	<td>Intel 6/60/3</td>
+	<td>hsw i5-4570S</td>
+	<td>4 (4)</td>
+	<td>4GB</td>
+	<td></td>
+	<td>(N=20000, 4 threads, OpenBLAS)</td>
+</tr>
+
+
+<tr>
+	<td>6</td>
+	<td bgcolor=#ff0000>sandybridge-ep</td>
+	<td>85 GFLOPS</td>
+	<td>x86_64</td>
+	<td>Intel 6/45/?</td>
+	<td>snb</td>
+	<td>12 (24)</td>
+	<td>16GB</td>
+	<td></td>
+	<td>(N=40000 12 threads, ATLAS)</td>
+</tr>
+
+<tr>
+	<td>7</td>
+	<td>fam15h-a10</td>
+	<td>54 GFLOPS</td>
+	<td>x86_64</td>
+	<td>AMD 21/19/1</td>
+	<td>A10-6800B</td>
+	<td>4</td>
+	<td>8GB</td>
+	<td></td>
+	<td>(N=30000, 4 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>8</td>
+	<td>broadwell MacBookAir</td>
+	<td>51 GFLOPS</td>
+	<td>x86_64</td>
+	<td>Intel 6/61/4</td>
+	<td>Broadwell i5-5250U</td>
+	<td>2 (4)</td>
+	<td>4GB</td>
+	<td>macbook-air</td>
+	<td>(N=20000, 2 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>9</td>
+	<td>fam10h-phenom</td>
+	<td>41 GFLOPS</td>
+	<td>x86_64</td>
+	<td>AMD 16/4/3</td>
+	<td>Phenom II X4 955</td>
+	<td>4</td>
+	<td>2GB</td>
+	<td></td>
+	<td>(N=15000, 4 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>10</td>
+	<td>ivb-mac-mini</td>
+	<td>40 GFLOPS</td>
+	<td>x86_64</td>
+	<td>Intel 6/58/9</td>
+	<td>ivb i5-3210M</td>
+	<td>2 (4)</td>
+	<td>4GB</td>
+	<td></td>
+	<td>(N=20000, 2 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>11</td>
+	<td>ivb-macbook-air</td>
+	<td>36 GFLOPS</td>
+	<td>x86_64</td>
+	<td>Intel 6/58/9</td>
+	<td>ivb i5-3427U</td>
+	<td>2 (4)</td>
+	<td>4GB</td>
+	<td></td>
+	<td>(N=10000, 2 threads, OpenBLAS)</td>
+</tr>
+
+
+<tr>
+	<td>12</td>
+	<td>core2</td>
+	<td>18.4 GFLOPS</td>
+	<td>x86_64</td>
+	<td>Intel 6/23/10</td>
+	<td>Core2 P8700</td>
+	<td>2</td>
+	<td>4GB</td>
+	<td></td>
+	<td>(N=20000, 2 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>13</td>
+	<td>jetson-tx1</td>
+	<td>16.0 GFLOPS</td>
+	<td>ARM</td>
+	<td>ARMv8</td>
+	<td>CortexA57</td>
+	<td>4</td>
+	<td>4GB</td>
+	<td>NVIDIA</td>
+	<td>(N=20000, 4 thread, OpenBLAS)</td>
+</tr>
+
+
+<tr>
+	<td>14</td>
+	<td><a href="../projects/pi-cluster/">pi-cluster</a></td>
+	<td>15.4 GFLOPS</td>
+	<td>arm</td>
+	<td>Cortex A7</td>
+	<td>Raspberry Pi 2</td>
+	<td>96</td>
+	<td>24GB</td>
+	<td></td>
+	<td>(N=48000, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>15</td>
+	<td>fam16h-a8-jaguar</td>
+	<td>14.0 GFLOPS</td>
+	<td>x86_64</td>
+	<td>AMD 22/48/1</td>
+	<td>A8-6410</td>
+	<td>4</td>
+	<td>4GB</td>
+	<td></td>
+	<td>(N=10000, 4 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>16</td>
+	<td>Pentium D</td>
+	<td>11.8 GFLOPS</td>
+	<td>x86_64</td>
+	<td>Intel 15/6/5</td>
+	<td>Pentium 4/D</td>
+	<td>1 (2)</td>
+	<td>1GB</td>
+	<td></td>
+	<td>(N=10000, 2 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>17</td>
+	<td>odroid-xu</td>
+	<td>8.3 GFLOPS</td>
+	<td>ARM</td>
+	<td>ARMv7</td>
+	<td>Cortex A7/A15</td>
+	<td>4 Big 4 Little</td>
+	<td>2GB</td>
+	<td>Exynos 5 Octa</td>
+	<td>(N=12000, 4 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>18</td>
+	<td>Raspberry pi-3b</td>
+	<td>3.62 GFLOPS</td>
+	<td>ARM</td>
+	<td>ARMv7/8</td>
+	<td>Cortex A53</td>
+	<td>4</td>
+	<td>1GB</td>
+	<td>3 Model B</td>
+	<td>(N=8000*, 4 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>19</td>
+	<td>atom-cedarview server</td>
+	<td>3.35 GFLOPS</td>
+	<td>x86_64</td>
+	<td>Intel 6/54/9</td>
+	<td>Atom S1260</td>
+	<td>2 (4)</td>
+	<td>4GB</td>
+	<td></td>
+	<td>(N=20000, 2 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>20</td>
+	<td>atom-cedarview desktop</td>
+	<td>2.97 GFLOPS</td>
+	<td>x86_64</td>
+	<td>Intel 6/54/1</td>
+	<td>Atom D2550</td>
+	<td>2 (4)</td>
+	<td>4GB</td>
+	<td></td>
+	<td>(N=20000, 4 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>21</td>
+	<td>chromebook</td>
+	<td>2.83 GFLOPS</td>
+	<td>ARM</td>
+	<td>ARMv7</td>
+	<td>Cortex A15</td>
+	<td>2</td>
+	<td>2GB</td>
+	<td>Exynos 5 Dual</td>
+	<td>(N=10000, 2 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>22</td>
+	<td>fam14h-bobcat</td>
+	<td>2.76 GFLOPS</td>
+	<td>x86_64</td>
+	<td>AMD 20/2/0</td>
+	<td>Bobcat</td>
+	<td>2</td>
+	<td>2GB</td>
+	<td>G-T56N</td>
+	<td>(N=8000, 2 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>23</td>
+	<td>dragonboard</td>
+	<td>2.22 GFLOPS</td>
+	<td>ARM</td>
+	<td>ARMv8</td>
+	<td>Cortex-A53</td>
+	<td>4</td>
+	<td>1GB</td>
+	<td>Snapdragon 410c</td>
+	<td>(N=8000, 4 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>24</td>
+	<td>Raspberry pi-2b</td>
+	<td>1.47 GFLOPS</td>
+	<td>ARM</td>
+	<td>ARMv7</td>
+	<td>Cortex A7</td>
+	<td>4</td>
+	<td>1GB</td>
+	<td>Model 2</td>
+	<td>(N=10000, 4 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>25</td>
+	<td>atom-eeepc</td>
+	<td>1.36 GFLOPS</td>
+	<td>x86</td>
+	<td>Intel 6/28/2</td>
+	<td>Atom N270</td>
+	<td>1 (2)</td>
+	<td>2GB</td>
+	<td>eeepc 900</td>
+	<td>(N=10000, 2 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>26</td>
+	<td>pandaboard-es</td>
+	<td>0.915 GFLOPS</td>
+	<td>ARM</td>
+	<td>ARMv7</td>
+	<td>Cortex A9</td>
+	<td>2</td>
+	<td>1GB</td>
+	<td>ES, OMAP4</td>
+	<td>(N=5000 <sup>*</sup>, 2 threads, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>27</td>
+	<td>cubieboard2</td>
+	<td>0.859 GFLOPS</td>
+	<td>ARM</td>
+	<td>ARMv7</td>
+	<td>Cortex A7</td>
+	<td>2</td>
+	<td>1GB</td>
+	<td>Allwinner A20</td>
+	<td>(N=8000, 2 threads, OpenBLAS)</td>
+</tr>
+
+
+<tr>
+	<td>28</td>
+	<td>sparc</td>
+	<td>0.423 GFLOPS</td>
+	<td>SUN</td>
+	<td>SPARC</td>
+	<td>Ultra</td>
+	<td>1</td>
+	<td>512MB</td>
+	<td>TI Ultrasparc II</td>
+	<td>(N=5000, 1 thread, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>29</td>
+	<td>Raspberry pi-zero</td>
+	<td>0.319 GFLOPS</td>
+	<td>ARM</td>
+	<td>ARMv6</td>
+	<td>BCM2835</td>
+	<td>1</td>
+	<td>512MB</td>
+	<td>Model Zero</td>
+	<td>(N=5000, 1 thread, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>30</td>
+	<td>Pentium II</td>
+	<td>0.241 GFLOPS</td>
+	<td>x86</td>
+	<td>Intel 6/5/2</td>
+	<td>Pentium II</td>
+	<td>1</td>
+	<td>256MB</td>
+	<td></td>
+	<td>(N=4000, 1 thread, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>31</td>
+	<td>Raspberry pi-aplus</td>
+	<td>0.223 GFLOPS</td>
+	<td>ARM</td>
+	<td>ARMv6</td>
+	<td>BCM2835</td>
+	<td>1</td>
+	<td>256MB</td>
+	<td>Model A+</td>
+	<td>(N=4000, 1 thread, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>32</td>
+	<td>Raspberry pi compute-module</td>
+	<td>0.217 GFLOPS</td>
+	<td>ARM</td>
+	<td>ARMv6</td>
+	<td>BCM2835</td>
+	<td>1</td>
+	<td>512MB</td>
+	<td>Pi Compute Module</td>
+	<td>(N=5000, 1 thread, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>33</td>
+	<td>Raspberry pi-b</td>
+	<td>0.213 GFLOPS</td>
+	<td>ARM</td>
+	<td>ARMv6</td>
+	<td>BCM2835</td>
+	<td>1</td>
+	<td>512MB</td>
+	<td>Model B</td>
+	<td>(N=5000, 1 thread, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>34</td>
+	<td>Raspberry pi-bplus</td>
+	<td>0.213 GFLOPS</td>
+	<td>ARM</td>
+	<td>ARMv6</td>
+	<td>BCM2835</td>
+	<td>1</td>
+	<td>512MB</td>
+	<td>Model B+</td>
+	<td>(N=5000, 1 thread, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>35</td>
+	<td>beaglebone-black</td>
+	<td>0.068 GFLOPS</td>
+	<td>ARM</td>
+	<td>ARMv7</td>
+	<td>Cortex A8</td>
+	<td>1</td>
+	<td>512MB</td>
+	<td>TI AM3</td>
+	<td>(N=5000, 1 thread, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>36</td>
+	<td>beagleboard-xm</td>
+	<td>0.054 GFLOPS</td>
+	<td>ARM</td>
+	<td>ARMv7</td>
+	<td>Cortex A8</td>
+	<td>1</td>
+	<td>512MB</td>
+	<td>TI DM3730</td>
+	<td>(N=5000, 1 thread, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>37</td>
+	<td>gumstix-overo</td>
+	<td>0.041 GFLOPS</td>
+	<td>ARM</td>
+	<td>ARMv7</td>
+	<td>Cortex A8</td>
+	<td>1</td>
+	<td>256MB</td>
+	<td>TI OMAP3</td>
+	<td>(N=4000, 1 thread, OpenBLAS)</td>
+</tr>
+
+<tr>
+	<td>38</td>
+	<td>appleII</td>
+	<td>133 FLOPS</td>
+	<td>MOS</td>
+	<td>65C02</td>
+	<td>Apple IIe</td>
+	<td>1</td>
+	<td>128k</td>
+	<td>platinum</td>
+	<td>(N=10, 1 thread, BASIC)</td>
+</tr>
+
+
+<tr>
+        <td>?</td>
+       	<td>ELF Membership Card</td>
+       	<td>??? GFLOPS</td>
+        <td>ELF</td>
+       	<td>RCA1802</td>
+        <td></td>
+        <td>1</td>
+        <td>32kB</td>
+        <td>???</td>
+        <td>(??, 1 thread)</td>
+</tr>
+
+
+
+
+<tr>
+	<td>?</td>
+	<td bgcolor=#ff0000>trimslice</td>
+	<td>??? GFLOPS</td>
+	<td>ARM</td>
+	<td>ARMv7</td>
+	<td>Cortex A9</td>
+	<td>2</td>
+	<td>1GB</td>
+	<td>Tegra2</td>
+	<td>???</td>
+</tr>
+
+<tr>
+	<td>?</td>
+	<td bgcolor=#ff0000>octane</td>
+	<td>??? GFLOPS</td>
+	<td>MIPS</td>
+	<td>SGI</td>
+	<td>MIPS R12k</td>
+	<td>1</td>
+	<td>???</td>
+	<td>???</td>
+	<td>(??, 1 thread)</td>
+</tr>
+
+<tr>
+	<td>?</td>
+	<td bgcolor=#ff0000>avr32</td>
+	<td>??? GFLOPS</td>
+	<td>AVR32</td>
+	<td>AVR</td>
+	<td>AP7000</td>
+	<td>1</td>
+	<td>???</td>
+	<td>???</td>
+	<td>(??, 1 thread)</td>
+</tr>
+
+<tr>
+        <td>?</td>
+       	<td bgcolor=#ff0000>gumstix-netstix</td>
+       	<td>??? GFLOPS</td>
+        <td>ARM</td>
+       	<td>ARMv5</td>
+        <td>Intel PXA255</td>
+        <td>1</td>
+        <td>64MB</td>
+        <td>???</td>
+        <td>(??, 1 thread)</td>
+</tr>
+
+<tr>
+        <td>?</td>
+       	<td bgcolor=#ff0000>k6-2+</td>
+       	<td>??? GFLOPS</td>
+        <td>x86</td>
+       	<td>AMD</td>
+        <td>K6-2+</td>
+        <td>1</td>
+        <td>??</td>
+        <td>???</td>
+        <td>(??, 1 thread)</td>
+</tr>
+
+
+<tr>
+        <td>?</td>
+       	<td bgcolor=#ff0000>486</td>
+       	<td>??? GFLOPS</td>
+        <td>x86</td>
+       	<td>Cyrix</td>
+        <td>486</td>
+        <td>1</td>
+        <td>20MB</td>
+        <td>???</td>
+        <td>(??, 1 thread)</td>
+</tr>
+
+<tr>
+        <td>?</td>
+       	<td bgcolor=#ff0000>g3-iBook</td>
+       	<td>??? GFLOPS</td>
+        <td>PPC</td>
+       	<td>Apple</td>
+        <td>G3</td>
+        <td>1</td>
+        <td>640MB</td>
+        <td>???</td>
+        <td>(??, 1 thread)</td>
+</tr>
+
+<tr>
+        <td>?</td>
+       	<td bgcolor=#ff0000>g4-powerBook</td>
+       	<td>??? GFLOPS</td>
+        <td>PPC</td>
+       	<td>Apple</td>
+        <td>G4</td>
+        <td>1</td>
+        <td>2 GB</td>
+        <td>???</td>
+        <td>(??, 1 thread)</td>
+</tr>
+
+<tr>
+        <td>?</td>
+       	<td bgcolor=#ff0000>p4</td>
+       	<td>??? GFLOPS</td>
+        <td>x86</td>
+       	<td>Intel</td>
+        <td>Pentium 4</td>
+        <td>1</td>
+        <td>768MB</td>
+        <td>???</td>
+        <td>(??, 1 thread)</td>
+</tr>
+
+<tr>
+        <td>?</td>
+       	<td bgcolor=#ff0000>core duo</td>
+       	<td>??? GFLOPS</td>
+        <td>x86</td>
+       	<td>Intel</td>
+        <td>Core Duo</td>
+        <td>2</td>
+        <td>2 GB</td>
+        <td>???</td>
+        <td>(??, 1 thread)</td>
+</tr>
+
+
+
+</table>
+
+<sup>*</sup> -- the pandaboard crashes due to overheating
+	(even with heatsinks) if N=10000 is used<br><br>
+<sup>*</sup> -- the pi3 FAILS or crashes (due to overheating?)
+	on many of the N=8000/N=6000 runs.
+	Reportedly with a full heatsink and active cooling
+	it can achieve 6.4GFLOPS with N=8000.
+	<br><br>
+
+Red indicates machine currently is not in working order<br><br>
+
+
+
+<hr>
+
+<a href="index.html">Back to VMW Research Group page</a>
+
+</body>
+</html>
