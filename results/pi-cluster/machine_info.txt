@@ -1,0 +1,11 @@
+Pi Cluster
+24 * Raspberry Pi Model 2-B
+24GB RAM
+ARM Cortex A7
+96 cores
+Also a netgear 48-port switch
+
+Power adapter:
+	Corsair ATX
+
+
