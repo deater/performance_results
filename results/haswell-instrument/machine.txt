@@ -1,0 +1,7 @@
+Lenovo Thinkcentre
+Internal name: haswellian
+Intel Haswell 6/60/3
+Intel(R) Core(TM) i5-4570S CPU @ 2.90GHz
+4 cores, 4 threads (is ht disabled?)
+4GB RAM
+
