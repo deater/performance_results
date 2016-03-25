@@ -1,0 +1,10 @@
+Apple IIe (platinum)
+
+128kB RAM
+65C02 @ 1MHz
+
+Has a CFFA2 disk and Uthernet ethernet adapter installed
+
+
+
+

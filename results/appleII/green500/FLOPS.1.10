@@ -1,0 +1,7 @@
+Using the MMM basic program, took 15s, calculated
+
+133.333 FLOP/s
+
+Unfair test of course, should do this in 6502 assembly.
+Maybe see what the Apple-Crate Apple II cluster guy
+was using as a benchmark.
