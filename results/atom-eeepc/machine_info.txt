@@ -1,4 +1,4 @@
-Asus eeePC 900
+Asus eeePC 901
 Intel(R) Atom(TM) CPU N270   @ 1.60GHz
 6/28/2
 1 core (2 threads)
