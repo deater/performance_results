@@ -1,0 +1,34 @@
+gcc -O2 -DNTIMES=100 -DSTREAM_ARRAY_SIZE=10000000 stream.c -o stream_c
+gcc (Raspbian 4.9.2-10) 4.9.2
+Linux pi3 4.1.20-v7+ #867 SMP Wed Mar 23 20:12:32 GMT 2016 armv7l GNU/Linux
+
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 10000000 (elements), Offset = 0 (elements)
+Memory per array = 76.3 MiB (= 0.1 GiB).
+Total memory required = 228.9 MiB (= 0.2 GiB).
+Each kernel will be executed 100 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 81075 microseconds.
+   (= 81075 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:            2218.6     0.074022     0.072118     0.074839
+Scale:           2089.9     0.078404     0.076558     0.087583
+Add:             2039.7     0.118093     0.117663     0.118637
+Triad:           1723.9     0.139765     0.139216     0.140511
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------

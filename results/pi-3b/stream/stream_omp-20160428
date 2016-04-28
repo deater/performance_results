@@ -1,0 +1,37 @@
+gcc -O2 -DNTIMES=100 -DSTREAM_ARRAY_SIZE=10000000 -fopenmp stream.c -o stream_omp
+gcc (Raspbian 4.9.2-10) 4.9.2
+Linux pi3 4.1.20-v7+ #867 SMP Wed Mar 23 20:12:32 GMT 2016 armv7l GNU/Linux
+
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 10000000 (elements), Offset = 0 (elements)
+Memory per array = 76.3 MiB (= 0.1 GiB).
+Total memory required = 228.9 MiB (= 0.2 GiB).
+Each kernel will be executed 100 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Number of Threads requested = 4
+Number of Threads counted = 4
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 77685 microseconds.
+   (= 77685 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:            2217.1     0.072965     0.072165     0.073716
+Scale:           2219.3     0.072937     0.072095     0.074353
+Add:             2154.1     0.113017     0.111417     0.114816
+Triad:           2156.2     0.112867     0.111306     0.115080
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
