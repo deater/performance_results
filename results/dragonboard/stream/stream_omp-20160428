@@ -1,0 +1,37 @@
+gcc -O2 -DNTIMES=100 -DSTREAM_ARRAY_SIZE=10000000 -fopenmp stream.c -o stream_omp
+gcc (Debian/Linaro 4.9.2-10) 4.9.2
+Linux dragon 4.2.4-linaro-lt-qcom #1 SMP PREEMPT Fri Dec 4 12:42:30 UTC 2015 aarch64 GNU/Linux
+
+-------------------------------------------------------------
+STREAM version $Revision: 5.10 $
+-------------------------------------------------------------
+This system uses 8 bytes per array element.
+-------------------------------------------------------------
+Array size = 10000000 (elements), Offset = 0 (elements)
+Memory per array = 76.3 MiB (= 0.1 GiB).
+Total memory required = 228.9 MiB (= 0.2 GiB).
+Each kernel will be executed 100 times.
+ The *best* time for each kernel (excluding the first iteration)
+ will be used to compute the reported bandwidth.
+-------------------------------------------------------------
+Number of Threads requested = 4
+Number of Threads counted = 4
+-------------------------------------------------------------
+Your clock granularity/precision appears to be 1 microseconds.
+Each test below will take on the order of 62314 microseconds.
+   (= 62314 clock ticks)
+Increase the size of the arrays if this shows that
+you are not getting at least 20 clock ticks per test.
+-------------------------------------------------------------
+WARNING -- The above is only a rough guideline.
+For best results, please be sure you know the
+precision of your system timer.
+-------------------------------------------------------------
+Function    Best Rate MB/s  Avg time     Min time     Max time
+Copy:            3420.8     0.047454     0.046772     0.050132
+Scale:           3374.9     0.048914     0.047409     0.056017
+Add:             3465.9     0.070326     0.069245     0.074823
+Triad:           3310.5     0.073032     0.072497     0.077876
+-------------------------------------------------------------
+Solution Validates: avg error less than 1.000000e-13 on all three arrays
+-------------------------------------------------------------
