@@ -1,1 +1,4 @@
 Note, the pi3 crashes (due to overheating) if I try N=8000
+
+The 10k results were generated with "overvolt=4" and a heatsink
+

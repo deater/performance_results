@@ -1,5 +1,19 @@
 note on my pi3, even with a small heatsink, using N=8000 and higher
 results in failed results and sometimes locked systems.
 
-Still investigating this.
+The results also are lower than expected due to CPU throttling.
+
+Lockups can be avoided by passing
+	overvolt=2
+in the config.txt file and rebooting, but usually in this case
+without heatsink/fan the processor will still throttle down to
+600MHz and return much lower results.
+
+See the thread:
+	https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=139712&sid=bfbb48acfb1c4e5607821a44a65e86c5
+for more info.
+
+There it is reported a GFLOPS of 6.4 could be obtained with proper cooling.
+
+
 
