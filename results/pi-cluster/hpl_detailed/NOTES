@@ -1,0 +1,13 @@
+This data was gathered on the pi-cluster
+
+So far this is done manually.
+
+The tools for gathering are from the vmw-meter/mcp3008_spi directory
+
+	compact_log
+
+is used to log the data which can be dumped with dump_log or to jgraph
+	with jgraph_log
+
+
+
