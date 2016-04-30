@@ -1,0 +1,35 @@
+A pain!
+
+Make sure 32-bit gcc etc installed
+
+Download and install
+	cuda-repo-l4t-r23.1-7-0-local_7.0-71_armhf.deb
+from nvidia
+
+you're supposed to then be able to do "apt-get update / apt get install cuda"
+but didn't work for me, had to manually install cublas, cublas-dev,
+cudart-dev, cuda-command-line-tools-7-0, etc from /var/cuda-repo-7-0-local
+
+Use the included Make.CUDA with hpl-cuda
+
+Need to manually install mpich as Ubunty Trusty doesn't package it?
+	mpich-3.2
+	configure, make, make install
+
+	compile openblas.  git (2.18?)
+
+Put the cudablas path in /etc/ld.so.conf.d
+
+
+You might thin you want to install Jetson Drivers
+	JetPack-L4T-2.0-linux-x64.run
+	But that's just tools that let you (on an x86_64 machine)
+	flash the jetson over USB, and even then you have to
+	be running a very specific version of Ubuntu.
+
+
+Trying to run hpl_cuda and it either crashes the machine or isn't
+using CUDA at all.  Frustrating.  Did get some results but they
+might just be CPU.
+
+
