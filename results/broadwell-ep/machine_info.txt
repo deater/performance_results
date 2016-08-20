@@ -1,0 +1,6 @@
+HP ProLiant DL360 Gen9
+32GB RAM
+Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+8 cores (16 threads)
+
+
