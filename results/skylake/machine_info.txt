@@ -1,0 +1,6 @@
+Lenovo ThinkCentre M800
+8GB RAM
+Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz
+4 cores (8 threads)
+
+
