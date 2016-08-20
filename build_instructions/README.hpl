@@ -41,3 +41,5 @@ Next get hpl.  Hpl is notriously a pain to get built.  I'll do the following:
 
 	Then just run "xhpl" and you will be good.
 
+To use fewer than needed cores:
+	env OMP_NUM_THREADS=16
