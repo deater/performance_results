@@ -1,0 +1,7 @@
+IBM Power8 8348-21C
+32GB RAM
+Power8
+64 cores
+
+Power supply:
+1200W?
