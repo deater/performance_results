@@ -10,6 +10,7 @@ apt-get install gfortran
 Next, get and install OpenBlas.  You can get the git tree, but usually
 I'll get the most recent stable release tarball.
 	http://www.openblas.net/
+(You can also use current git version if you're daring).
 
 Untar it, then usually it's just a matter of "make".  If you have unusual
 hardware you might have to specify the architecture by hand.
@@ -18,12 +19,14 @@ On a slow machine (like a pi) it might take a few hours to build.
 Next get hpl.  Hpl is notriously a pain to get built.  I'll do the following:
 	Download from here:
 		http://www.netlib.org/benchmark/hpl/
-	I have been using hpl-2.1
+	I have been using hpl-2.2
 
 	Untar it.
 
 	Make a Make.OpenBLAS config file.  I've included mine here,
 	but note your paths might have to be adjusted.
+	Espcially the path to where your OpenBLAS lives, and also MPI
+		(most notably if you are trying to use OpenMPI instead)
 
 	Make a link to the hpl-1.2 directory from hpl in your home directory.
 	I'm not sure why but it always fails if I don't do this.
@@ -40,6 +43,9 @@ Next get hpl.  Hpl is notriously a pain to get built.  I'll do the following:
 	You will likely want to edit the N line to match.
 
 	Then just run "xhpl" and you will be good.
+
+Running with MPI:
+	TODO, as I've been having troubles recently
 
 To use fewer than needed cores:
 	env OMP_NUM_THREADS=16
