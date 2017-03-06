@@ -2,6 +2,7 @@ Raspberry Pi Model 3-B
 1GB RAM
 ARM Cortex A53
 4 cores
+1.2GHz
 
 Power adapter:
 Huntkey HKa01105021-XE

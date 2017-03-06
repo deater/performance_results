@@ -1,6 +1,6 @@
 Raspberry Pi Model 2-B
 1GB RAM
-ARM Cortex A7
+900MHz ARM Cortex A7
 4 cores
 
 Power adapter:
