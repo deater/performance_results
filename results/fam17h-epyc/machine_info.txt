@@ -1,0 +1,4 @@
+HPE ProLiant DL385 Gen10
+16GB DDR4 by default
+
+8 Cores (16 threads)

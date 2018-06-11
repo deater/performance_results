@@ -1,0 +1,5 @@
+gcc (Debian 7.3.0-21) 7.3.0
+Linux epyc 4.16.0-2-amd64 #1 SMP Debian 4.16.12-1 (2018-05-27) x86_64 GNU/Linux
+Debian stretch
+OpenBLAS git as of 5 June 2018
+hpl-2.2
