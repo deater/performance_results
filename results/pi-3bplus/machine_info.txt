@@ -1,0 +1,10 @@
+Raspberry Pi Model 3-B+
+1GB RAM
+ARM Cortex A53
+4 cores
+1.4GHz
+
+Power adapter:
+5.0V@2.4A
+
+
