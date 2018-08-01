@@ -5,6 +5,7 @@ ARM Cortex A53
 1.4GHz
 
 Power adapter:
+GEO151UB-6025
 5.0V@2.4A
 
 

@@ -4,7 +4,7 @@ Raspberry Pi Model 2-B v1.2
 4 cores
 
 Power adapter:
-???
+GEO151UB-6025
 5.0V@2.4A
 
 
