@@ -1,0 +1,11 @@
+Raspberry Pi Model zero-w
+512MB RAM
+ARM1176 BCM2835
+1 core
+700MHz
+
+Power adapter:
+GEO151UB-6025
+5.0V@2.4A
+
+

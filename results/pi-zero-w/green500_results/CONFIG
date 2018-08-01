@@ -1,0 +1,6 @@
+gcc (Raspbian 6.3.0-18+rpi1+deb9u1) 6.3.0 20170516
+Linux linpack-test 4.14.50-v7+ #1122 SMP Tue Jun 19 12:26:26 BST 2018 armv7l GNU/Linux
+OpenBLAS-0.2.20 , auto-detected
+hpl-2.2
+
+serial adapter connected during test (no USB or HDMI)
