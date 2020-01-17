@@ -21,7 +21,7 @@ hash_labels font Helvetica fontsize 11
 label font Helvetica fontsize 11  : Time
 
 (* Title *)
-title font Helvetica fontsize 13 : HPL Linpack on Pi-4B 1GB -- Roughly 10GFLOPS (1.5GFLOP/Watt)
+title font Helvetica fontsize 13 : HPL Linpack on Pi-4B 1GB N=9K -- Roughly 10GFLOPS (1.5GFLOP/Watt)
 
 newcurve marktype none linetype solid color 1.0 0.0 0.0
 label hjl vjc fontsize 13 font Helvetica x 45 y 9 : Power
