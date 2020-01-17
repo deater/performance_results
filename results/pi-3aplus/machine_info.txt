@@ -1,0 +1,15 @@
+Raspberry Pi Model 3A+
+512MB RAM
+ARM Cortex A52
+4 cores
+1.4GHz
+LPDDR2 SDRAM
+Running in 32-bit mode
+
+Heatsink:
+none
+
+Power adapter:
+canakit
+DCAR-052A5
+5V@2.5A
