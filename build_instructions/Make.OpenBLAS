@@ -82,8 +82,10 @@ HPLlib       = $(LIBdir)/libhpl.a
 # used. The variable MPdir is only used for defining MPinc and MPlib.
 #
 MPdir        = /usr/
-MPinc        = -I$(MPdir)/include/mpi
-MPlib        = -lmpich
+#MPinc        = -I/usr/include/arm-linux-gnueabihf/mpich
+#MPlib        = -lmpich
+MPlib        = -lmpi
+
 #$(MPdir)/lib/x86_64-linux-gnu/libmpich.a
 #
 # ----------------------------------------------------------------------
@@ -95,7 +97,8 @@ MPlib        = -lmpich
 #
 LAdir        = 
 LAinc        =
-LAlib        = /home/vince/research/blas/OpenBLAS-0.2.14/libopenblas.a -lpthread 
+#LAlib        = /home/vince/research/OpenBLAS.git/libopenblas.a
+LAlib        = /home/vince/research/OpenBLAS.git/libopenblas.a -lpthread
 #
 # ----------------------------------------------------------------------
 # - F77 / C interface --------------------------------------------------
@@ -167,9 +170,9 @@ HPL_DEFS     = $(F2CDEFS) $(HPL_OPTS) $(HPL_INCLUDES)
 # - Compilers / linkers - Optimization flags ---------------------------
 # ----------------------------------------------------------------------
 #
-CC           = /usr/bin/gcc
+CC           = /usr/bin/mpicc
 CCNOOPT      = $(HPL_DEFS)
-CCFLAGS      = $(HPL_DEFS) -fomit-frame-pointer -O3 -funroll-loops
+CCFLAGS      = $(HPL_DEFS) -g -fomit-frame-pointer -O3 -funroll-loops
 #
 # On some platforms,  it is necessary  to use the Fortran linker to find
 # the Fortran internals used in the BLAS library.
