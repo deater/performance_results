@@ -26,7 +26,7 @@ int main(int argc, char **argv) {
 
 	fff=fopen(argv[1],"r");
 	if (fff==NULL) {
-		fprintf(fff,"Error opening %s\n",argv[1]);
+		fprintf(stderr,"Error opening %s\n",argv[1]);
 		return -1;
 	}
 
