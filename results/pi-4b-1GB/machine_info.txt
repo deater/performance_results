@@ -6,6 +6,9 @@ ARM Cortex A72
 LPDDR4-3200 SDRAM
 Running in 32-bit mode
 
+Heatsink:
+half-inch aluminum heatsink on CPU
+
 Power adapter:
 Official pi-foundation USB-C adapter
 KSA-15E-051300HU
