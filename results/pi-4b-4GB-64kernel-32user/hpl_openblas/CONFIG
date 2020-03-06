@@ -1,0 +1,14 @@
+gcc (Raspbian 9.2.1-22+rpi1) 9.2.1 20200104
+OpenBLAS (git from 15 January 2020), auto-detected
+hpl-2.3
+
+[sudo] password for vince: 
+BCM2711 detected
+BOOTLOADER: up-to-date
+CURRENT: Tue 10 Sep 2019 10:41:50 AM UTC (1568112110)
+ LATEST: Tue 10 Sep 2019 10:41:50 AM UTC (1568112110)
+VL805: up-to-date
+CURRENT: 000137ad
+ LATEST: 000137ad
+
+Linux pi4-64 4.19.97-v8+ #1294 SMP PREEMPT Thu Jan 30 13:27:08 GMT 2020 aarch64 GNU/Linux
