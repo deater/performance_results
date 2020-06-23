@@ -1,0 +1,10 @@
+Raspberry Pi Model 2-B v1.2
+1GB RAM
+900MHz ARM Cortex A53
+4 cores
+
+Power adapter:
+GEO151UB-6025
+5.0V@2.4A
+
+

@@ -1,0 +1,4 @@
+gcc (Raspbian 9.2.1-22+rpi1) 9.2.1 20200104
+Linux raspberrypi 4.19.75-v7l+ #1270 SMP Tue Sep 24 18:51:41 BST 2019 armv7l GNU/Linux
+OpenBLAS (git from 15 January 2020), auto-detected
+hpl-2.3

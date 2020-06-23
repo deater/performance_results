@@ -1,0 +1,15 @@
+Raspberry Pi Model 4-B
+4GB RAM
+ARM Cortex A72
+4 cores
+1.5GHz
+LPDDR4-3200 SDRAM
+Running 64-bit kernel 32-bit userspace
+
+Heatsink:
+heatsink case (adafruit)
+
+Power adapter:
+Official pi-foundation USB-C adapter
+KSA-15E-051300HU
+5.1V@3.0A

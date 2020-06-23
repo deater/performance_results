@@ -1,0 +1,15 @@
+gcc (Raspbian 9.2.1-22+rpi1) 9.2.1 20200104
+Linux raspberrypi 4.19.75-v7l+ #1270 SMP Tue Sep 24 18:51:41 BST 2019 armv7l GNU/Linux
+OpenBLAS (git from 15 January 2020), auto-detected
+hpl-2.3
+
+sudo rpi-eeprom-update 
+[sudo] password for vince: 
+BCM2711 detected
+BOOTLOADER: up-to-date
+CURRENT: Tue 10 Sep 2019 10:41:50 AM UTC (1568112110)
+ LATEST: Tue 10 Sep 2019 10:41:50 AM UTC (1568112110)
+VL805: up-to-date
+CURRENT: 000137ab
+ LATEST: 000137ab
+

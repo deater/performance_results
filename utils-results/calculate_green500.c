@@ -26,7 +26,7 @@ int main(int argc, char **argv) {
 
 	fff=fopen(argv[1],"r");
 	if (fff==NULL) {
-		fprintf(fff,"Error opening %s\n",argv[1]);
+		fprintf(stderr,"Error opening %s\n",argv[1]);
 		return -1;
 	}
 
@@ -93,7 +93,8 @@ int main(int argc, char **argv) {
 
 		if (accum_idle) {
 			if (current_time-prev_time > 1.1) {
-				printf("ERRROR!  FIXME: missed sample\n");
+				printf("ERRROR!  FIXME: missed sample %lf at %lf\n",
+					prev_time,current_time);
 			}
 			temp_joules=current_watts/(current_time-prev_time);
 			idle_joules+=temp_joules;
@@ -130,7 +131,8 @@ int main(int argc, char **argv) {
 
 		if (accumulating) {
 			if (current_time-prev_time > 1.1) {
-				printf("ERRROR!  FIXME: missed sample\n");
+				printf("ERRROR!  FIXME: missed sample %lf at %lf\n",
+					prev_time,current_time);
 			}
 			temp_joules=current_watts/(current_time-prev_time);
 			total_joules+=temp_joules;

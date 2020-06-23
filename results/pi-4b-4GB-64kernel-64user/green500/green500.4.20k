@@ -1,0 +1,19 @@
+Reading HPL file:
+	HPL start time: 1583529916.245505
+	HPL gigaflops: 13.459000
+	HPL stop time: 1583530363.195251
+	Total time: 446.949747
+
+Reading power file
+	First time in file: 1583529908.284979
+	Starting Idle at 1583529911.290196
+	Starting Energy at 1583529916.293130
+	Stopping Energy at 1583530363.375055
+	Last time in file: 1583530375.378457
+	Total Energy: 2976.568490 J
+	Average Power: 2976.568490/447.081925 = 6.657770 W
+	Average Idle Power: 12.793035/5.002934 = 2.557106 W
+	Max Power: 7.300000 W
+
+
+GIGAFLOPS/W = 2.021548
