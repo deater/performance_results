@@ -1,0 +1,8 @@
+Raspberry Pi Zero 2W
+512M RAM
+ARM Cortex A53
+4 cores
+
+Power adapter:
+
+

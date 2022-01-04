@@ -1,0 +1,4 @@
+gcc version 10.2.1 20210110 (Raspbian 10.2.1-6+rpi1) 
+Linux pi-linpack 5.10.63-v7+ #1488 SMP Thu Nov 18 16:14:44 GMT 2021 armv7l GNU/Linux
+OpenBLAS-git , auto-detected, from 3 January 2022
+hpl-2.3
