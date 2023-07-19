@@ -1,0 +1,12 @@
+BeagleV-Ahead
+TH1520 (Alibaba T-Head)
+4 cores
+1.848GHz
+4GB DDR4?
+Running in 64-bit mode
+
+Heatsink:
+none
+
+Power adapter:
+5V@2.0A barrel conector

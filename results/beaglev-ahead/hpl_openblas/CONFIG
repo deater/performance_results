@@ -1,0 +1,5 @@
+gcc (Ubuntu 12.2.0-17ubuntu1) 12.2.0
+Linux BeagleV 5.10.113-g52fbe8443ea1-dirty #1 SMP PREEMPT Tue Jul 11 17:16:44 UTC 2023 riscv64 riscv64 riscv64 GNU/Linux
+OpenBLAS (git from 19 July 2023), auto-detected
+hpl-2.3
+
