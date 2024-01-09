@@ -4,13 +4,17 @@ anyone wants to try to replicate.
 Most of my systems run debian.  From a fairly stock debian install you
 will need to install the following packages:
 
-apt-get install libmpich-dev (might be libmpich2-dev on older systems)
+#Note: libmpich started having issues so recent versions use openmpi instead
+#apt-get install libmpich-dev (might be libmpich2-dev on older systems)
+
+apt-get install libopenmpi-dev
 apt-get install gfortran
 
 Next, get and install OpenBlas.  You can get the git tree, but usually
 I'll get the most recent stable release tarball.
 	http://www.openblas.net/
 (You can also use current git version if you're daring).
+	git clone https://github.com/OpenMathLib/OpenBLAS
 
 Untar it, then usually it's just a matter of "make".  If you have unusual
 hardware you might have to specify the architecture by hand.
@@ -19,7 +23,7 @@ On a slow machine (like a pi) it might take a few hours to build.
 Next get hpl.  Hpl is notriously a pain to get built.  I'll do the following:
 	Download from here:
 		http://www.netlib.org/benchmark/hpl/
-	I have been using hpl-2.2
+	I have been using hpl-2.3
 
 	Untar it.
 
@@ -28,7 +32,7 @@ Next get hpl.  Hpl is notriously a pain to get built.  I'll do the following:
 	Espcially the path to where your OpenBLAS lives, and also MPI
 		(most notably if you are trying to use OpenMPI instead)
 
-	Make a link to the hpl-1.2 directory from hpl in your home directory.
+	Make a link to the hpl-2.3 directory from hpl in your home directory.
 	I'm not sure why but it always fails if I don't do this.
 
 		cd ; ln -s PATH_TO_HPL hpl
