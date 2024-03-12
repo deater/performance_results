@@ -1,0 +1,12 @@
+Pi Cluster2
+Five * Raspberry Pi Model 4B
+24GB RAM (4*4GB + 1*8GB)
+
+ARM Cortex A72
+20 cores
+
+Power adapters:
+	One official Pi4B USB-C power supply
+	One 8-port ( 4 PoE) Gigabit Router
+		Ubiquiti Networks UniFi Lite 8-Port Gigabit PoE+
+

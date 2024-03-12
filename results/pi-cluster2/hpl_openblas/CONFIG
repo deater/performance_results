@@ -1,0 +1,6 @@
+gcc (Debian 12.2.0-14) 12.2.0
+Linux pi-cluster2 6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07) aarch64 GNU/Linux
+Debian Bookworm
+OpenBLAS-git (February 2024), auto-detected
+hpl-2.3
+
