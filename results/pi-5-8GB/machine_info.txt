@@ -1,0 +1,15 @@
+Raspberry Pi Model 5
+8GB RAM
+ARM Cortex A76
+4 cores
+2.4GHz
+LPDDR4X 4267MT/s SDRAM
+Running in 32-bit mode
+
+Heatsink:
+FLIRC Raspbery Pi 5 case
+	aluminum housing/thermal padding
+
+Power adapter:
+Official pi-foundation USB-C adapter
+27W
