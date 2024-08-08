@@ -1,0 +1,5 @@
+gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+Linux orangepi800 5.18.5-rk3399 #3.0.8 SMP PREEMPT Mon Sep 26 15:06:13 CST 2022 aarch64 aarch64 aarch64 GNU/Linux
+Openblas git
+hpl-2.3
+

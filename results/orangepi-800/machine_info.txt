@@ -1,0 +1,10 @@
+OrangePi 800
+4GB LPDDR4 RAM
+Rockchip RK3399 SoC
+	Two big cores: Cortex-A72 @1.8 GHz
+	Four little cores: Cortex-A53 @1.4 GHz
+
+Power adapter:
+?
+
+

@@ -1,0 +1,3 @@
+env OMP_NUM_THREADS=1 taskset -c 0 ./xhpl > hpl.paper.little.1.16k
+env OMP_NUM_THREADS=6 taskset -c 0,1,2,3,4,5 ./xhpl > hpl.paper.all.012345.16k
+
