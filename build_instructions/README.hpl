@@ -53,3 +53,16 @@ Running with MPI:
 
 To use fewer than needed cores:
 	env OMP_NUM_THREADS=16
+
+
+
+
+Ubuntu (at least 22.04 on OrangePi)
+
+	apt install gfortran
+	apt install libopenmpi-dev
+
+
+
+
+
