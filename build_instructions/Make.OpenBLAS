@@ -84,7 +84,7 @@ HPLlib       = $(LIBdir)/libhpl.a
 MPdir        = /usr/
 #MPinc        = -I/usr/include/arm-linux-gnueabihf/mpich
 #MPlib        = -lmpich
-MPlib        = -lmpi
+MPlib        = -lmpi -lm
 
 #$(MPdir)/lib/x86_64-linux-gnu/libmpich.a
 #
