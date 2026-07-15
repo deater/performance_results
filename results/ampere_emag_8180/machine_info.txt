@@ -1,0 +1,6 @@
+Lenovo ThinkSystem HR330A (7X33)
+Ampere 64-bit Armv8 32-core eMAG 8180 
+128GB RAM (DDR4 RDIMM)
+32 KB L1 I-cache, 32 KB L1 D-cache (per core)
+256 KB L2 cache per 2 cores (shared)
+32 MB L3 (globally shared)

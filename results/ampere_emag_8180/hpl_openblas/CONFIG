@@ -1,0 +1,5 @@
+gcc (Debian 15.3.0-1) 15.3.0
+Linux ampere 7.0.13+deb14-arm64 #1 SMP PREEMPT Debian 7.0.13-1 (2026-06-19) aarch64 GNU/Linux
+OpenBLAS git as of 8 July 2026, baa253650af93deb10803fce06fb078720f043d6, auto-detected
+hpl-2.3
+
